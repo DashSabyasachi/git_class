@@ -1,0 +1,13 @@
+Sabyasachi Dash
+
+div Function
+.............
+<<<<< HEAD
+def div(a,b):
+ print(a / b)
+=============
+
+div(10,5)
+>>>>>>> Hari
+//op : 2
+
