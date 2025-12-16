@@ -1,0 +1,8 @@
+git status
+git add .
+git commit -m "version name"
+git push origin jeet
+git checkout main(change the branch)
+git pull origin main
+git merge jeet
+git push origin main

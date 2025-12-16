@@ -1,0 +1,7 @@
+subtraction function
+....................
+def sub(a, b):
+	print(a-b)
+
+sub(12,)
+//8
