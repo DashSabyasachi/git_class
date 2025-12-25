@@ -4,16 +4,7 @@ def Average_price(Total_price , Total_products):
 
 Average_price(100,4)
 
-//In case error exist if u want any delected file from any branch where the file exist then we have to 
-			execute some commands.
-			
-			$git status
 
-			$git add txt9.txt
-
-			$git cherry-pick --continue
-
-			$git push origin branchname(in that branch where u r executing commands) 
 
 
 	
