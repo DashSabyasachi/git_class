@@ -4,18 +4,6 @@ def Average_price(Total_price , Total_products):
 
 Average_price(100,4)
 
-// for the practice of git cherry-pick i am writing here another program for 
- and only this commit i need to push from nutan(feature branch) 
-Scenario:
-
-nutan has a commit
-
-i want it in main.
-
-git checkout main
-git log nutan --oneline
-git cherry-pick <commit-hash>
-git push origin main
 
 program: Ask a user their weight (in pounds), convert it to kilograms and print on the terminal.
 #lbs to kg
