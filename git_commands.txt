@@ -54,13 +54,19 @@ git diff main sabya
 git diff 60w4586 78q5241
 
 
-git rebase: It is used for move branch commit on top of another branch to cleaner linear history. we only do rebasing for feature branch not shared branch.git rebase update file based on commit history.
+git rebase: Git rebase is used to integrate changes from one branch into another by replaying commits on top of the latest base branch, instead of creating a merge commit. we only do rebasing for feature branch not shared branch. git rebase update file based on commit history.
 
 git checkout featureBranch
 git fetch origin
 git rebase origin/main
 git push origin featureBranch --force-with-lease
 
+
+git stash: it is just like a temporary savepoint. it saves uncommited changes and clean the working tree without committing.
+git stash   ---->temporarily save the changes
+git stash pop   ----->apply and remove the stash
+git stash apply stash@{0} ---> apply stash from selected stash name
+git restore filename.txt --->undo the change and restore the last commited version.
 
 
  
