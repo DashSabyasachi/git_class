@@ -1,9 +1,64 @@
-git command for push a folder in GIT
-........................................
-git init
-git ststus
+
+
+one by one all command practice:
+..................................
+git init(initialize a git repo)
 git add .
 git commit -m "version name"
-git branch -m btranchname
-git remote origin repo_URL
-git push -u origin branchname
+git branch -m main
+git remote origin repo_link
+git push -u origin main
+Then for another branch as sabya
+git branch -m sabya (sabya branch created)
+git status
+git add fileA.py
+git commit -m "push1 from sabya"
+git push -u origin sabya(fileA.py pushed from sabya branch)
+now i will merge the sabya branch with mainbranch
+git checkout main
+git pull origin main
+git merge sabya
+git push origin main
+
+for cloning:         git clone repo_path(ssh/https)
+for pull a clone folder:       git pull origin main
+
+
+
+process of remove merge conflict:  1st conflict happen on that time when we commited same file from 2 or more branches at the same time then git was unable to know which change it will keep or which not. so merge conflict happen.
+then if we got to konow from which file conflict happen and then locally we visit this file remove <<<<<  ====   >>>>> symbols and save it again.
+then execute in CLI some commands
+git add .
+git commit -m "version_name"
+git push origin branch_name
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

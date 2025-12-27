@@ -1,5 +1,3 @@
-Sabyasachi Dash
-
 div Function
 .............
 
