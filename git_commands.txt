@@ -15,7 +15,7 @@ git add fileA.py
 git commit -m "push1 from sabya"
 git push -u origin sabya(fileA.py pushed from sabya branch)
 now i will merge the sabya branch with mainbranch
-git checkout main
+git checkout main (only branch change done)
 git pull origin main
 git merge sabya 
 git push origin main
