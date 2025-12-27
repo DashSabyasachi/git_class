@@ -36,12 +36,22 @@ git push origin branch_name
 
 
 git cherry-pick:  this command is used for move a specific file from one branch to another. 
-git cherry_pick commitHash
+git cherry-pick commitHash
 git push origin main
 
 
 
+git log : used for see the commit history for any branch.
+git log main
+git log sabya
+git log main --oneline
+git log --oneline --graph
 
+
+
+git diff: used for see the difference between the branch, commit(by commitHash) but if there is no difference it will not show anything.
+git diff main sabya
+git diff 60w4586 78q5241
 
  
 
