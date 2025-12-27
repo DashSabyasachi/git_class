@@ -35,6 +35,14 @@ git push origin branch_name
 
 
 
+git cherry-pick:  this command is used for move a specific file from one branch to another. 
+git cherry_pick commitHash
+git push origin main
+
+
+
+
+
  
 
 
