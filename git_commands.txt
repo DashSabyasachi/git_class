@@ -17,8 +17,11 @@ git push -u origin sabya(fileA.py pushed from sabya branch)
 now i will merge the sabya branch with mainbranch
 git checkout main
 git pull origin main
-git merge sabya
+git merge sabya 
 git push origin main
+
+git merge: Git merge is a Git operation that combines changes from one branch into another by creating a new merge commit, preserving the complete history of both branches.
+
 
 for cloning:         git clone repo_path(ssh/https)
 for pull a clone folder:       git pull origin main
@@ -35,7 +38,7 @@ git push origin branch_name
 
 
 
-git cherry-pick:  this command is used for move a specific file from one branch to another. 
+git cherry-pick:  this command is used for move a specific file from one branch to another through gitCommitHash. 
 git cherry-pick commitHash
 git push origin main
 
