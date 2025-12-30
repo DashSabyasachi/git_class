@@ -1,0 +1,21 @@
+program: Ask a user their weight (in pounds), convert it to kilograms and print on the terminal.
+#lbs to kg
+pound_weight = input("What is your Weight(in pounds or lbs): ")
+kg_weight = int(pound_weight) * 0.453592
+print( kg_weight)
+
+//In case error exist if u want any delected file from any branch where the file exist then we have to 
+			execute some commands.
+			
+			$git status
+
+			$git add txt9.txt
+
+			$git cherry-pick --continue
+
+			$git push origin branchname(in that branch where u r executing commands) 
+
+
+
+
+	
