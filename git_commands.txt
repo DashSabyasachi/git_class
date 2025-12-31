@@ -81,6 +81,11 @@ git branch -m main
 git remote origin repolink
 git push -u origin main
 
+git pull origin main
+git merge jeet
+git push origin main
+
+git clone link
 
 
 
