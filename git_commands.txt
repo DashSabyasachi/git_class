@@ -95,6 +95,9 @@ git log --oneline
 
 git diff
 
+git fetch origin
+git rebase origin/main
+git push origin featureBranch
 
 
 
